@@ -19,7 +19,6 @@ body {
     border-radius: 1%;
     padding: 76.25px;
 }
-
 .mainShadow{
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.32);
 }
@@ -40,21 +39,36 @@ body {
 .contentFontSize{
     font-size: 30px;
     line-height: 1.5;
+    padding-top: 40px;
 }
-
+  
 .appButton{
     font-size: 34px;
     margin-bottom: 40px;
     background-color: #646094;
     border: 0px;
-
 }
-
 .appButton:hover{
     background-color: #3e3b5c;
 }
-
 #contentOne p{
     padding-top: 40px;
 }
+#contentTwo p{
+    padding-top: 40px;
+}
+.appButtonTwo{
+    font-size: 34px;
+    background-color: #EEEEEE;
+    border: 0px;
+    border-color: none;
+    width: 145px;
+    height: 80px;
+}
+.appButtonTwo:hover{
+    background-color: lightgray;
+}
 
+.col-sm {
+    max-width: 37.5%;
+}
