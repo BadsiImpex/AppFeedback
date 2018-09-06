@@ -1,0 +1,60 @@
+div {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin-top: 0px;
+    font-family: SinewsSansPro-Regular;
+}
+#backgroundOne{
+    background-color: #EEEEEE;
+    height: 1024px;
+    width: 768px;
+    padding: 50px;
+}
+#backgroundTwo{
+    background-color: white;
+    height: 924px;
+    width: 668px;
+    border-radius: 1%;
+    padding: 76.25px;
+}
+
+.mainShadow{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.32);
+}
+
+.fontMedium{
+    font-family: SinewsSansPro-Medium;
+}
+.orangeColor{
+    color: #E69D0B;
+}
+.titleFontSize{
+    font-size: 60px;
+    line-height: 1.0;
+}
+.grayColor{
+    color: #444B54;
+}
+.contentFontSize{
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.appButton{
+    font-size: 34px;
+    margin-bottom: 40px;
+    background-color: #646094;
+    border: 0px;
+
+}
+
+.appButton:hover{
+    background-color: #3e3b5c;
+}
+
+#contentOne p{
+    padding-top: 40px;
+}
+
