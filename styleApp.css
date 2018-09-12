@@ -51,11 +51,11 @@ body {
 .appButton:hover{
     background-color: #3e3b5c;
 }
-
 /*Content id styles*/
 #contentTwo {
     display: none;
 }
+
 #contentOne p{
     padding-top: 40px;
 }
@@ -63,6 +63,8 @@ body {
     padding-top: 40px;
 }
 .appButtonTwo{
+)
+input[type="submit"]{
     font-size: 34px;
     background-color: #EEEEEE;
     border: 0px;
@@ -76,4 +78,5 @@ body {
 
 .col-sm {
     max-width: 37.5%;
+    margin: 40px;
 }
