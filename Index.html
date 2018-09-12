@@ -5,24 +5,27 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styleApp.css">
-    <link href='./font/SinewsWebfonts/SinewsSansPro-Medium.woff' rel="stylesheet">
-    <link href='./font/SinewsWebfonts/SinewsSansPro-Regular.woff' rel="stylesheet">
+    <link href='font/SinewsWebfonts/SinewsSansPro-Medium.woff' rel="stylesheet">
+    <link href='font/SinewsWebfonts/SinewsSansPro-Regular.woff' rel="stylesheet">
+      
     <title>Feedback App</title>
   </head>
   <body>
     <div id="backgroundOne">
         <div id="backgroundTwo" class="mainShadow">
             <img src="./logo_badsi.png" class="float-right" width="31px" hight="9.625">
-            <!--<div id="contentOne">
+            <div id="contentOne">
                 <p class="fontMedium orangeColor titleFontSize">Making Things<br><span style ='font-size: 120px'>SIMPLE</span></p>
                 <p class="grayColor contentFontSize">Our goal at <strong>BADSI</strong> is to make things as<br><strong>EASY</strong> as possible for <strong>YOU</strong>. And, we belive<br> you are the best partner to help us make<br> it possible.</p>
                 <p class="grayColor contentFontSize buttonmarginspace">Tell us about your current experience and possibilities of what it could be.</p>
-                <button type="button" class="btn btn-primary btn-lg appButton" onclick="">Give us your feedback &#8594</button>
-            </div>-->
+                <button type="button" id="contentOneButton" class="btn btn-primary btn-lg appButton" onclick="nextPage('contentOne', 'contentTwo')">Give us your feedback &#8594</button>
+            </div>
             <form>
             <div id="contentTwo">
                 <p class="fontMedium orangeColor titleFontSize">What was the<br>objecteve of your<br>visit today?</p>
@@ -62,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary btn-lg" onclick="myFunction"()>Next &#8594</button>
+                <button type="button" class="btn btn-primary btn-lg" id="contentOneButton" onclick="nextPage(contentOne, contentTwo)">Next &#8594</button>
             </div>
                 </form>
             <!--<div id="contentThree">
@@ -83,8 +86,10 @@
         <icon></icon>
         </div>
       </div>
+    <!--Custom JS-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Bootstrap JS -->
+    <script src="Js/appJS.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="./Bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
