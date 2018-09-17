@@ -32,36 +32,44 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
-                              <input type="checkbox" name="vehicle1" value="Bike" class="appButtonTwo">Test Drive<br>
-</div>
+                              <input type="button" class="appButtonTwo" id="optionOne" value="Test Drive" onclick="assignValue(event,'testDrive','objectiveOne')">
+                              <span id="objectiveOne"></span>
+                            </div>
                         <div class="col-sm">
-                            <button type="button" class="btn btn-primary fontMedium grayColor appButtonTwo">Car Parts</button></div>
-                    </div>
-                    <tr><td><br/></td></tr>
-                    <div class="row">
-                        <div class="col-sm">
-                            <button type="button" class="btn btn-primary fontMedium grayColor appButtonTwo">Car Repair</button>
-                        </div>
-                        <div class="col-sm">
-                            <button type="button" class="btn btn-primary fontMedium grayColor appButtonTwo">Insurance</button>
+                            <input type="button" class="appButtonTwo" id="optionTwo" value="Car Parts" onclick="assignValue(event,'carParts','objectiveTwo')">
+                              <span id="objectiveTwo"></span>
                         </div>
                     </div>
-                    <tr><td><br/></td></tr>
                     <div class="row">
                         <div class="col-sm">
-                            <button type="button" class="btn btn-primary fontMedium grayColor appButtonTwo">Car Offer</button>
+                           <input type="button" class="appButtonTwo" id="optionThree" value="Car Repair" onclick="assignValue(event,'carRepair','objectiveThree')">
+                              <span id="objectiveThree"></span>
                         </div>
                         <div class="col-sm">
-                            <button type="button" class="btn btn-primary fontMedium grayColor appButtonTwo">Sell Car</button>
+                           <input type="button" class="appButtonTwo" id="optionFour" value="Insurance" onclick="assignValue(event,'insurance','objectiveFour')">
+                              <span id="objectiveFour"></span>
                         </div>
                     </div>
-                    <tr><td><br/></td></tr>
+                    
                     <div class="row">
                         <div class="col-sm">
-                            <button type="button" class="btn btn-primary fontMedium grayColor appButtonTwo">Pickup Car</button>
+                            <input type="button" class="appButtonTwo" id="optionFive" value="Car Offer" onclick="assignValue(event,'carOffer','objectiveFive')">
+                              <span id="objectiveFive"></span>
                         </div>
                         <div class="col-sm">
-                            <button type="button" class="btn btn-primary fontMedium grayColor appButtonTwo">Others</button>
+                            <input type="button" class="appButtonTwo" id="optionSix" value="Sell Car" onclick="assignValue(event,'sellCar','objectiveSix')">
+                              <span id="objectiveSix"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <input type="button" class="appButtonTwo" id="optionSeven" value="Pickup Car" onclick="assignValue(event,'sellCar','objectiveSeven')">
+                              <span id="objectiveSeven"></span>
+                        </div>
+                        
+                        <div class="col-sm">
+                            <input type="button" class="appButtonTwo" id="optionEight" value="Others" onclick="assignValue(event,'other','objectiveEight')">
+                              <span id="objectiveEight"></span>
                         </div>
                     </div>
                 </div>

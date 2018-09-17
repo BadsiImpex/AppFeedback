@@ -67,13 +67,17 @@ body {
     background-color: #EEEEEE;
     border: 0px;
     border-color: none;
-    width: 145px;
-    height: 80px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    height: 90px;
 }
 .appButtonTwo:hover{
     background-color: lightgray;
 }
 
 .col-sm {
-    max-width: 37.5%;
-}
+     max-width: 37.5%;
+     padding-left: 0px;
+    }
